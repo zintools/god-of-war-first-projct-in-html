@@ -1,0 +1,42 @@
+body{
+background-color: black;
+color: azure;
+}
+h1,h3,h2{
+text-align: center;
+color: red;
+text-shadow: 5px 5px 1 red;
+
+}
+p,ul{
+text-align: center;
+
+}
+img {
+  display: block;
+ margin: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 20px red;
+  border-radius: 60px;
+  transition: all 0.3s ease;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+  }
+  li{
+    background: gray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    list-style: none;
+    transition: all 0.3s ease;
+  }
+  li:hover{
+    transform: translateY(-10px);
+    background-color: #888;
+  }
+   img:hover{
+    transform: translateY(-10px);
+    background-color: #888;
+  }
