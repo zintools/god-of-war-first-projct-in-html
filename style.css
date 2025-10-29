@@ -4,8 +4,8 @@ color: azure;
 }
 h1,h3,h2{
 text-align: center;
-color: red;
-text-shadow: 5px 5px 1 red;
+color: rgb(132, 6, 6);
+text-shadow: 5px 5px 1 rgb(132, 6, 6);
 
 }
 p,ul{
@@ -14,12 +14,28 @@ text-align: center;
 }
 img {
   display: block;
- margin: auto;
+ margin: 100px;
   border-radius: 15px;
-  box-shadow: 0 0 20px red;
+  box-shadow: 0 0 20px rgb(132, 6, 6);
   border-radius: 60px;
   transition: all 0.3s ease;
+  
   }
+form {
+  position: absolute;
+  top: 180px;
+  left: 55%;
+  background: black;
+  padding: 60px 40px;
+  border: 2px solid rgb(132, 6, 6);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgb(132, 6, 6), inset 0 0 10px #300;
+  transition: all 0.3s ease;
+  width: 280px;
+  text-align: center;
+}
+
+
   ul{
     list-style: none;
     padding: 0;
@@ -39,4 +55,8 @@ img {
    img:hover{
     transform: translateY(-10px);
     background-color: #888;
+  }
+   form:hover{
+    transform: translateY(-10px);
+    
   }
